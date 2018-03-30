@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "374713752824",
+    "firebase_url": "https://restaupoint.firebaseio.com",
+    "project_id": "restaupoint",
+    "storage_bucket": "restaupoint.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:374713752824:android:782cc59d68e7b01b",
+        "android_client_info": {
+          "package_name": "com.example.maica.mapssample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "374713752824-3df1tuo9ch4ifk3c4883duu21e1c0ae3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.maica.mapssample",
+            "certificate_hash": "55575696e0e67557a7a1945c9dab7a0afca929e5"
+          }
+        },
+        {
+          "client_id": "374713752824-pum4ehjrfetvs2jr6bf0rmfsicj0p2tc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKhDZBMm2UhVxShcfqLxRepdLTYPv9m74"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "374713752824-pum4ehjrfetvs2jr6bf0rmfsicj0p2tc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

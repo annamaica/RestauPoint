@@ -1,0 +1,46 @@
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        tools:context="com.example.maica.mapssample.MapsActivity"
+        android:layout_height="match_parent" />
+
+    <ToggleButton
+        android:id="@+id/tbMode"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="80dp"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/map"
+        android:drawableLeft="@drawable/toggle_selector"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/colorWhite"
+        android:textOff="Walking"
+        android:textOn="Driving" />
+
+    <Button
+        android:layout_toRightOf="@+id/tbMode"
+        android:id="@+id/btnDirection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="235dp"
+        android:layout_alignLeft="@+id/map"
+        android:layout_alignTop="@+id/map"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:drawableLeft="@drawable/directionbutton"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/colorWhite"
+        android:text="  Get Direction"/>
+
+</RelativeLayout>
+
